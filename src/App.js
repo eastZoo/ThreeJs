@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Experience from "./pages/Experience";
+import "./App.css"
+const { Canvas } = require("@react-three/fiber");
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Canvas>
+      <Experience />
+    </Canvas>
   );
 }
 
 export default App;
+// https://www.youtube.com/watch?v=mdj7Z3PCxRg&t=856s
+
+// https://www.youtube.com/watch?v=mdj7Z3PCxRg
